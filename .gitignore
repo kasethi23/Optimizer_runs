@@ -1,0 +1,36 @@
+# Checkpoints
+/llama350m_cosmos_checkpoints/
+*_checkpoints/
+
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Weights & Biases
+wandb/
+
+# Model outputs
+outputs/
+results/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data cache
+.cache/
+*.cache
